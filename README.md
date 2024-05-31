@@ -1,5 +1,5 @@
 # todo
 
-bg + centering name, brief, link with icons
+stable wallpaper api or custom image set.
 
-bg from website or image set, text on blurring card.
+font same with blog
