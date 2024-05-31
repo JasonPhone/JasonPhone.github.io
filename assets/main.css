@@ -3,7 +3,7 @@ html {
 }
 
 * {
-    font-family: "Source Han Sans Normal";
+    font-family: "Noto Serif SC";
 }
 
 body {
@@ -23,7 +23,6 @@ header {
     background-color: rgba(8, 8, 8, 0.3);
     backdrop-filter: blur(2px);
     border-radius: 15px;
-    /* todo animated blur */
 }
 
 a {
@@ -60,12 +59,14 @@ nav a:hover {
     color: lightgray;
 }
 
-
 #footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    color: darkgray;
+    color: white;
     text-align: center;
+    background-color: rgba(8, 8, 8, 0.3);
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
 }
