@@ -8,16 +8,17 @@ html {
 
 body {
     margin: 0px 0px 0px 0px;
-    background-color: lightgray;
-    /* background-image: url("images/wild.jpg"); */
-    background: url("https://api.oneneko.com/v1/bing_today");
+    background-color: white;
+    /* background: url("https://api.oneneko.com/v1/bing_today"); */
+    /* background: url("./images/img-00.jpg"); */
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
+    font-family: "Noto Serif SC";
 }
 
 header {
-    width: 40%;
-    margin-top: 15%;
+    width: 60%;
+    margin-top: 20%;
     margin-left: auto;
     margin-right: auto;
     background-color: rgba(8, 8, 8, 0.3);
