@@ -15,10 +15,18 @@
 
 <body id="body">
     <script>
-        n_img = 6;
-        img_prefix = "img-";
+        h = document.documentElement.clientHeight;
+        w = document.documentElement.clientWidth;
+        if (h < w) {
+            n_img = 14;
+            img_path = "w";
+        } else {
+            n_img = 7;
+            img_path = "h";
+        }
         img_idx = Math.floor(Math.random() * n_img);
-        img_url = "url(./assets/images/" + img_prefix + img_idx.toString().padStart(2, "0") + ".jpg)";
+        img_file = "img-" + img_idx.toString().padStart(2, "0") + ".jpg";
+        img_url = "url(./assets/images/" + img_path + "/" + img_file;
         document.getElementById('body').style.backgroundImage = img_url;
     </script>
     <div id="main">
