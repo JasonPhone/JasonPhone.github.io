@@ -1,3 +1,1 @@
-# todo
-
-card position on mobile devices.
+# f-jason.site
